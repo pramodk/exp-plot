@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exponential Plot</title>
+        <link rel="stylesheet" href="externals/c3.min.css" />
+        <link rel="stylesheet" href="plot.css" />
+    </head>
+    <body>
+
+        <!-- input data selection -->
+        <div class="wrapper">
+            <input type="file" id="file-input" class="button"/>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- line chart will appear here -->
+        <div class="plot" id="line-chart" ></div>
+
+
+        <!-- display file content here -->
+        <pre id="file-content"></pre>
+
+        <!-- all external javascript dependency -->
+        <script src="externals/jquery.min.js" charset="utf-8"></script>
+        <script src="externals/d3.min.js" charset="utf-8"></script>
+        <script src="externals/c3.min.js"></script>
+
+        <!-- javascript code -->
+        <script src="plot.js"></script>
+
+    </body>
+</html>
